@@ -19,7 +19,8 @@ class TitleCollectionViewCell: UICollectionViewCell {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-        contentView.addSubview(posterImageView)
+        contentView.backgroundColor = .red
+//        contentView.addSubview(posterImageView)
         
     }
     

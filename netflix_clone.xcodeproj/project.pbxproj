@@ -19,6 +19,8 @@
 		CF5532B4288DFC4A00690C6E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5532B3288DFC4A00690C6E /* Constants.swift */; };
 		CF5532BB288E0E6C00690C6E /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5532BA288E0E6C00690C6E /* CollectionViewTableViewCell.swift */; };
 		CF5532BD288E273A00690C6E /* TitleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5532BC288E273A00690C6E /* TitleCollectionViewCell.swift */; };
+		CFDF42FA288F0FFF0008564C /* HeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDF42F9288F0FFF0008564C /* HeroHeaderUIView.swift */; };
+		CFDF42FC288F188F0008564C /* netflix.png in Resources */ = {isa = PBXBuildFile; fileRef = CFDF42FB288F188F0008564C /* netflix.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		CF5532B3288DFC4A00690C6E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		CF5532BA288E0E6C00690C6E /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
 		CF5532BC288E273A00690C6E /* TitleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCollectionViewCell.swift; sourceTree = "<group>"; };
+		CFDF42F9288F0FFF0008564C /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
+		CFDF42FB288F188F0008564C /* netflix.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = netflix.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		CF5532B2288DFC3200690C6E /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				CFDF42FB288F188F0008564C /* netflix.png */,
 				CF5532B3288DFC4A00690C6E /* Constants.swift */,
 			);
 			path = Utils;
@@ -109,6 +114,7 @@
 			children = (
 				CF5532BA288E0E6C00690C6E /* CollectionViewTableViewCell.swift */,
 				CF5532BC288E273A00690C6E /* TitleCollectionViewCell.swift */,
+				CFDF42F9288F0FFF0008564C /* HeroHeaderUIView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -200,6 +206,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF5532A2288DF2D700690C6E /* LaunchScreen.storyboard in Resources */,
+				CFDF42FC288F188F0008564C /* netflix.png in Resources */,
 				CF55329F288DF2D700690C6E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,6 +226,7 @@
 				CF5532BB288E0E6C00690C6E /* CollectionViewTableViewCell.swift in Sources */,
 				CF5532AD288DF90A00690C6E /* UpcomingViewController.swift in Sources */,
 				CF5532BD288E273A00690C6E /* TitleCollectionViewCell.swift in Sources */,
+				CFDF42FA288F0FFF0008564C /* HeroHeaderUIView.swift in Sources */,
 				CF5532AB288DF8FA00690C6E /* HomeViewController.swift in Sources */,
 				CF5532B4288DFC4A00690C6E /* Constants.swift in Sources */,
 			);

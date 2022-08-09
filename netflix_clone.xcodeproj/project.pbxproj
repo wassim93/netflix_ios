@@ -21,6 +21,10 @@
 		CF5532BD288E273A00690C6E /* TitleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5532BC288E273A00690C6E /* TitleCollectionViewCell.swift */; };
 		CFDF42FA288F0FFF0008564C /* HeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDF42F9288F0FFF0008564C /* HeroHeaderUIView.swift */; };
 		CFDF42FC288F188F0008564C /* netflix.png in Resources */ = {isa = PBXBuildFile; fileRef = CFDF42FB288F188F0008564C /* netflix.png */; };
+		CFFDF22628A1C2AC00359091 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFDF22528A1C2AC00359091 /* Extensions.swift */; };
+		CFFDF22828A1D1C100359091 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFDF22728A1D1C100359091 /* APICaller.swift */; };
+		CFFDF22C28A1D54E00359091 /* TMDB.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFFDF22B28A1D54E00359091 /* TMDB.plist */; };
+		CFFDF22E28A1D61B00359091 /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFDF22D28A1D61B00359091 /* APIConfig.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +44,10 @@
 		CF5532BC288E273A00690C6E /* TitleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCollectionViewCell.swift; sourceTree = "<group>"; };
 		CFDF42F9288F0FFF0008564C /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
 		CFDF42FB288F188F0008564C /* netflix.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = netflix.png; sourceTree = "<group>"; };
+		CFFDF22528A1C2AC00359091 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		CFFDF22728A1D1C100359091 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		CFFDF22B28A1D54E00359091 /* TMDB.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TMDB.plist; sourceTree = "<group>"; };
+		CFFDF22D28A1D61B00359091 /* APIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +93,7 @@
 				CF55329E288DF2D700690C6E /* Assets.xcassets */,
 				CF5532A0288DF2D700690C6E /* LaunchScreen.storyboard */,
 				CF5532A3288DF2D700690C6E /* Info.plist */,
+				CFFDF22B28A1D54E00359091 /* TMDB.plist */,
 			);
 			path = netflix_clone;
 			sourceTree = "<group>";
@@ -105,6 +114,7 @@
 			children = (
 				CFDF42FB288F188F0008564C /* netflix.png */,
 				CF5532B3288DFC4A00690C6E /* Constants.swift */,
+				CFFDF22528A1C2AC00359091 /* Extensions.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -143,6 +153,8 @@
 		CF5532B9288E0E0A00690C6E /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				CFFDF22D28A1D61B00359091 /* APIConfig.swift */,
+				CFFDF22728A1D1C100359091 /* APICaller.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -208,6 +220,7 @@
 				CF5532A2288DF2D700690C6E /* LaunchScreen.storyboard in Resources */,
 				CFDF42FC288F188F0008564C /* netflix.png in Resources */,
 				CF55329F288DF2D700690C6E /* Assets.xcassets in Resources */,
+				CFFDF22C28A1D54E00359091 /* TMDB.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,11 +233,14 @@
 			files = (
 				CF5532AF288DF94000690C6E /* SearchViewController.swift in Sources */,
 				CF55329A288DF2D600690C6E /* MainTabViewController.swift in Sources */,
+				CFFDF22828A1D1C100359091 /* APICaller.swift in Sources */,
 				CF5532B1288DF95F00690C6E /* DownloadsViewController.swift in Sources */,
 				CF553296288DF2D600690C6E /* AppDelegate.swift in Sources */,
 				CF553298288DF2D600690C6E /* SceneDelegate.swift in Sources */,
+				CFFDF22E28A1D61B00359091 /* APIConfig.swift in Sources */,
 				CF5532BB288E0E6C00690C6E /* CollectionViewTableViewCell.swift in Sources */,
 				CF5532AD288DF90A00690C6E /* UpcomingViewController.swift in Sources */,
+				CFFDF22628A1C2AC00359091 /* Extensions.swift in Sources */,
 				CF5532BD288E273A00690C6E /* TitleCollectionViewCell.swift in Sources */,
 				CFDF42FA288F0FFF0008564C /* HeroHeaderUIView.swift in Sources */,
 				CF5532AB288DF8FA00690C6E /* HomeViewController.swift in Sources */,

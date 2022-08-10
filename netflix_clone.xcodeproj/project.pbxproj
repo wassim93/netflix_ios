@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF1DB9D228A31602002B5892 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF1DB9D128A31602002B5892 /* Movie.swift */; };
 		CF553296288DF2D600690C6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF553295288DF2D600690C6E /* AppDelegate.swift */; };
 		CF553298288DF2D600690C6E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF553297288DF2D600690C6E /* SceneDelegate.swift */; };
 		CF55329A288DF2D600690C6E /* MainTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF553299288DF2D600690C6E /* MainTabViewController.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CF1DB9D128A31602002B5892 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
 		CF553292288DF2D600690C6E /* netflix_clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = netflix_clone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF553295288DF2D600690C6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CF553297288DF2D600690C6E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 		CF5532B7288E0DD400690C6E /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				CF1DB9D128A31602002B5892 /* Movie.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -245,6 +248,7 @@
 				CFDF42FA288F0FFF0008564C /* HeroHeaderUIView.swift in Sources */,
 				CF5532AB288DF8FA00690C6E /* HomeViewController.swift in Sources */,
 				CF5532B4288DFC4A00690C6E /* Constants.swift in Sources */,
+				CF1DB9D228A31602002B5892 /* Movie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
